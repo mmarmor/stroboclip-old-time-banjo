@@ -362,15 +362,16 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
     If you would rather not sweeten, or you are playing with a piano or accordion, use EQU, the plain chromatic preset: equal temperament, all twelve notes, no sweetening, any instrument. Press + and − together while a code flashes to reach it.
 
     #sec("7", "Four things that catch people out")
-    A string that is far off can read as another note in the tuning with a still strobe. Select Piney Woods with the banjo still in G Standard and the 4th string reads a steady D; its target is low G. Check the letter against the table before you trust the strobe.
+    #set list(indent: 0pt, body-indent: 0.55em, spacing: 0.7em, marker: text(fill: accent, weight: 700)[•])
+    - A string that is far off can read as another note in the tuning with a still strobe. Select Piney Woods with the banjo still in G Standard and the 4th string reads a steady D; its target is low G. Check the letter against the table before you trust the strobe.
 
-    On big moves, get close by ear first, then let the tuner finish. Piney Woods drops the 4th string seven semitones.
+    - On big moves, get close by ear first, then let the tuner finish. Piney Woods drops the 4th string seven semitones.
 
-    Seven tunings are a whole step above another one; the table’s notes say which. Reaching the higher one is the same job either way: tune all five strings up two semitones, or stay in the lower tuning and capo at the 2nd fret, which raises the four long strings by the same two semitones. The 5th string sits above the capo, so raise it two semitones by hand or hook it under a spike at the 7th fret. Then select the higher tuning on the tuner; it checks what it hears, capo or not.
+    - Seven tunings are a whole step above another one; the table’s notes say which. Reaching the higher one is the same job either way: tune all five strings up two semitones, or stay in the lower tuning and capo at the 2nd fret, which raises the four long strings by the same two semitones. The 5th string sits above the capo, so raise it two semitones by hand or hook it under a spike at the 7th fret. Then select the higher tuning on the tuner; it checks what it hears, capo or not.
 
-    Weak or jumpy readings, most often on the short 5th string, which ends far from the headstock: try clipping the tuner to the rim of the pot instead. The headstock works; the rim is a little steadier.
+    - Weak or jumpy readings, most often on the short 5th string, which ends far from the headstock: try clipping the tuner to the rim of the pot instead. The headstock works; the rim is a little steadier.
 
-    Last, do not let the tuner stop you from listening. Tuning by ear is still tuning; the strobe is there to confirm it.
+    _Do not let the tuner stop you from listening. Tuning by ear is still tuning; the strobe is there to confirm it._
   ])
 
 #v(5pt)
@@ -388,7 +389,7 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
       #linebreak()
       Tuner presets: #link(post)[#text(weight: 700)[petersontuners.com/sweeteners/shared]] (User Trading Post, Shared User Configurations, OTB).
       #v(3pt)
-      #text(size: 8pt, fill: muted)[Card and text © 2026 Michael Marmor, #link(ccby)[CC BY 4.0]. Tunings, names and order from Tom Collins’s #link(quest)[Banjo Quest]. Version #version, October 30, 2026.]
+      #text(size: 8pt, fill: muted)[Card and text © 2026 Michael Marmor, #link(ccby)[CC BY 4.0]. Tunings, names and order from Tom Collins’s #link(quest)[Banjo Quest].#linebreak()Version #version, October 30, 2026.]
     ],
   )
 ]
