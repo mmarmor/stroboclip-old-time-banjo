@@ -39,7 +39,7 @@ Settings is reached by clicking Menu five times, until the gear icon shows, then
 
 **On big moves, get close by ear first,** then let the tuner finish. Piney Woods drops the 4th string seven semitones.
 
-**Six tunings are a whole step above another one;** the card's notes say which. Tune all five strings up two semitones, or stay in the lower tuning and capo at the 2nd fret, raising the 5th string two semitones by hand or with a spike at the 7th fret. Then select the higher tuning on the tuner.
+**Seven tunings are a whole step above another one;** the card's notes say which. Tune all five strings up two semitones, or stay in the lower tuning and capo at the 2nd fret, raising the 5th string two semitones by hand or with a spike at the 7th fret. Then select the higher tuning on the tuner.
 
 **Weak or jumpy readings,** most often on the short 5th string: try clipping the tuner to the rim of the pot instead of the headstock. The headstock works; the rim is a little steadier. This is my experience with two banjos, not Peterson's instruction.
 
