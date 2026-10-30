@@ -1,0 +1,5 @@
+title: OTB, old-time banjo tunings for the Peterson StroboClip HDC
+description: A 20-tuning configuration for the Peterson StroboClip HDC, with a printable card and a loading guide.
+theme: jekyll-theme-primer
+exclude:
+  - card/fonts/
