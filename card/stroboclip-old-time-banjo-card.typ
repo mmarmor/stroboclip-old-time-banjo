@@ -367,11 +367,11 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
 
     - On big moves, get close by ear first, then let the tuner finish. Piney Woods drops the 4th string seven semitones.
 
-    - Seven tunings are a whole step above another one; the table’s notes say which. Reaching the higher one is the same job either way: tune all five strings up two semitones, or stay in the lower tuning and capo at the 2nd fret, which raises the four long strings by the same two semitones. The 5th string sits above the capo, so raise it two semitones by hand or hook it under a spike at the 7th fret. Then select the higher tuning on the tuner; it checks what it hears, capo or not.
+    - Seven tunings are a whole step above another one; the table’s notes say which. Reaching the higher one is the same job either way: tune all five strings up two semitones, or stay in the lower tuning and capo at the 2nd fret, which raises the four long strings by the same two semitones. The 5th string sits above the capo, so raise it two semitones by hand or hook it under a spike at the 7th fret. Then select the higher tuning on the tuner; it checks what it hears, capo~or~not.
 
     - Weak or jumpy readings, most often on the short 5th string, which ends far from the headstock: try clipping the tuner to the rim of the pot instead. The headstock works; the rim is a little steadier.
 
-    _Do not let the tuner stop you from listening. Tuning by ear is still tuning; the strobe is there to confirm it._
+    #pad(left: 1.05em)[_Do not let the tuner stop you from listening. Tuning by ear is still tuning; the strobe is there to confirm it._]
   ])
 
 #v(5pt)
