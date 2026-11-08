@@ -13,7 +13,7 @@ Preview, October 30, 2026. Three kinds of statement are kept apart below: what P
 
 ## Single tunings, one at a time, on other Peterson Connect tuners
 
-Peterson Connect, the browser tool that moves presets onto a tuner, works with these products (Peterson's Connect page, fetched 29-Oct-2026): StroboClip HDC, StroboStomp Mini, StroboPLUS HDC, StroboClip HD, StroboStomp HD, StroboStomp LE, StroboPLUS HD, and the Stomp Classic pedal. All of them accept custom sweetened tunings. The plan is to share each of the 20 OTB tunings as an individual sweetener as well, so owners of these tuners can add the ones they want to their own configuration. That has not been done yet.
+Peterson Connect, the browser tool that moves presets onto a tuner, works with these products (Peterson's Connect page, fetched 29-Oct-2026): StroboClip HDC, StroboStomp Mini, StroboPLUS HDC, StroboClip HD, StroboStomp HD, StroboStomp LE, StroboPLUS HD, and the Stomp Classic pedal. All of them accept custom sweetened tunings. Each of the 20 OTB tunings is also shared on its own as an individual sweetener (User Trading Post, Misc. Instruments, by Michael Marmor, since October 31, 2026), so owners of these tuners can add the ones they want to their own configuration.
 
 What carries over to a single shared tuning:
 

@@ -4,7 +4,7 @@ Preview, October 30, 2026. This page explains the green numbers on the card: wha
 
 ## What OTB does
 
-A cent is one hundredth of a semitone. In eleven of the 20 tunings, one note of the open chord is a major third above the root: the B in G Standard, the C♯ in A Standard, the G♯ in Old Reuben, and so on. OTB tunes every open string that sounds that third 6.8 cents flat. In G Minor, whose B♭ is a minor third, the B♭ is 7.8 cents sharp. Everything else sits at 0: the other strings of those eleven tunings, and all five strings of the nine tunings that have no third among their open strings (Old G, Double C, Sawmill, Double D, A Modal, Sawmill: Sandy River, Last Chance, Triple C and Big Eyed Rabbit).
+A cent is one hundredth of a semitone. In eleven of the 20 tunings, one note of the open chord is a third above the root. In ten it is a major third: the B in G Standard, the C♯ in A Standard, the G♯ in Old Reuben, and so on; OTB tunes every open string that sounds that third 6.8 cents flat. In G Minor it is a minor third, the B♭, and OTB tunes it 7.8 cents sharp. Everything else sits at 0: the other strings of those eleven tunings, and all five strings of the nine tunings that have no third among their open strings (Old G, Double C, Sawmill, Double D, A Modal, Sawmill: Sandy River, Last Chance, Triple C and Big Eyed Rabbit).
 
 On the tuner, selecting one of the eleven shows the word SWEETENER above the code. The card's table marks each sweetened note in green.
 
@@ -36,7 +36,7 @@ Fourths and fifths come out almost exactly right. Thirds and sixths are off by 1
 
 **The cost.** A sweetener moves the whole string, not just the open note. Every fretted note on a string tuned 6.8 cents flat is also 6.8 cents flat. Fret the sweetened string to match an open string and the unison, normally dead still, wobbles by the amount of the offset. Half-tempered rather than pure is a compromise: open chords ring smoother, and fretted notes on that string stay close enough to equal temperament to live with. Fretting also stretches a string slightly sharp, which no sweetener can fix; that is what compensated bridges are for (Varieschi and Gower, "Intonation and Compensation of Fretted String Instruments", *American Journal of Physics*, 2010).
 
-**Capo.** Six OTB tunings are exactly another tuning a whole step up. Because the offset is on the string, a capo at the 2nd fret in the lower tuning gives the higher tuning with the same offsets. Raise the 5th string two semitones by hand or with a spike, and the tuner's higher preset checks the result.
+**Capo.** Seven OTB tunings are exactly another tuning a whole step up. Because the offset is on the string, a capo at the 2nd fret in the lower tuning gives the higher tuning with the same offsets. Raise the 5th string two semitones by hand or with a spike, and the tuner's higher preset checks the result.
 
 The arithmetic behind these numbers is ordinary: cents of each pure interval against 100 per semitone, and overtone frequencies at A = 440 Hz. Nothing here depends on a measurement I made.
 

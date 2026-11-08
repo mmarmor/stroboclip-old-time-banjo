@@ -1,6 +1,6 @@
 # Get OTB onto your tuner, and use it
 
-Preview, October 30, 2026. The install steps follow Peterson's own pages. The Trading Post entry is not posted yet; once it is, I will install OTB from it onto my own tuner, correct anything that differs, and add screenshots.
+Status, November 8, 2026. The one-click install below is not yet possible: Peterson's User Trading Post does not yet list StroboClip HDC configurations, and I have asked Peterson to enable that. The steps follow Peterson's own pages; once the entry is listed I will install it onto my own tuner, correct anything that differs, and add screenshots. The 20 tunings are already on the Trading Post one at a time, under Misc. Instruments.
 
 ## What you need
 
