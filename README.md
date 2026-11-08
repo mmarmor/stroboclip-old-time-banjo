@@ -2,7 +2,7 @@
 
 > **Preview, October 30, 2026.** First public version. The tuner presets are not yet posted on Peterson's User Trading Post, and the card is out for review with the people it credits. Details may change; this page always has the latest version.
 
-OTB, short for Old Time Banjo, is a set of 20 old-time banjo tunings loaded onto a Peterson StroboClip HDC clip-on strobe tuner as one configuration. Select a tuning and the tuner listens only for that tuning's five notes, shows the note nearest to what it hears, and takes that tuning's display color. The tunings are the common ones nearly every old-time player uses. Their names and order follow [Tom Collins's Banjo Quest](https://atlas.banjoquest.com/), so his students see one list. In each tuning the chord's major third is sweetened by 6.8 cents, Peterson's half-tempered value, and the plain EQU preset is one button press away.
+OTB, short for Old Time Banjo, is a set of 20 old-time banjo tunings loaded onto a Peterson StroboClip HDC clip-on strobe tuner as one configuration. Select a tuning and the tuner listens only for that tuning's five notes, shows the note nearest to what it hears, and takes that tuning's display color. The tunings are the common ones nearly every old-time player uses. Their names and order follow [Tom Collins's Banjonomicon](https://banjonomicon.com/about), so his students see one list. In each tuning the chord's major third is sweetened by 6.8 cents, Peterson's half-tempered value, and the plain EQU preset is one button press away.
 
 ## The card
 
@@ -79,10 +79,11 @@ The fonts travel with the repository, in `card/fonts/` with their license files:
 
 ## Credits and license
 
-Tunings, names and order from [Tom Collins's Banjo Quest](https://atlas.banjoquest.com/).
+Tunings, names and order from [Tom Collins's Banjonomicon](https://banjonomicon.com/about).
 
 Card, text and source © 2026 Michael Marmor, released under [CC BY 4.0](LICENSE): share and adapt freely, with credit. The tunings themselves are traditional and belong to no one. Peterson, StroboClip and Sweetener are trademarks of Peterson Electro-Musical Products, Inc.; this project is not affiliated with Peterson.
 
 ## Versions
 
+- v6, November 8, 2026: credit corrected at Tom Collins's request. The tunings come from his Banjonomicon, not Banjo Quest; the card and this page now say so and link to banjonomicon.com/about. No change to the tunings.
 - v5, October 30, 2026: first public version (Preview). The version number is printed on both pages of the card.

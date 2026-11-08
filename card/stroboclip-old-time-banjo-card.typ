@@ -7,11 +7,11 @@
 //   A4: add --input paper=a4 (same content width as Letter; the extra height goes to taller rows)
 // Fonts in fonts/: Atkinson Hyperlegible Next (SIL Open Font License 1.1) and DejaVu Sans (its own license,
 // for the sharp and flat signs Atkinson lacks). DejaVu Sans Mono is built into Typst.
-// Card and text (c) 2026 Michael Marmor, CC BY 4.0. Tunings, names and order from Tom Collins's Banjo Quest.
+// Card and text (c) 2026 Michael Marmor, CC BY 4.0. Tunings, names and order from Tom Collins's Banjonomicon.
 
 #let body-font = ("Atkinson Hyperlegible Next", "DejaVu Sans")
 #let a4 = sys.inputs.at("paper", default: "us-letter") == "a4"
-#let version = "5"
+#let version = "6"
 
 #set document(title: "StroboClip HDC Tuning Card", author: ("Michael Marmor",))
 #set page(
@@ -208,7 +208,7 @@
     spacing: 7pt,
     text(size: 8.6pt, weight: 700, fill: accent, tracking: 0.14em)[5-STRING BANJO · OLD-TIME TUNINGS],
     text(size: 22pt, weight: 700, tracking: -0.01em)[StroboClip HDC Tuning Card],
-    text(size: 9.5pt, fill: muted)[Tunings, names, and tuner order match Tom Collins’s Banjo Quest.],
+    text(size: 9.5pt, fill: muted)[Tunings, names, and tuner order match Tom Collins’s Banjonomicon.],
   ),
   stack(
     dir: ttb,
@@ -218,7 +218,7 @@
       #h(4pt)
       #chip("OTB", "ink", size: 12pt)
     ],
-    align(right, text(size: 7.5pt, fill: muted)[A = 440 Hz · sweetened thirds · v#version · October 30, 2026]),
+    align(right, text(size: 7.5pt, fill: muted)[A = 440 Hz · sweetened thirds · v#version · November 8, 2026]),
     align(right, text(size: 7.5pt, fill: muted)[Created by Michael Marmor · marmor\@duck.com]),
   ),
 )
@@ -330,7 +330,7 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
 #let sec(n, title, size: 12.5pt) = block(above: 8pt, below: 5pt, sticky: true, text(size: size, weight: 700)[#text(fill: accent)[#n] #h(2pt) #title])
 #let site = "https://mmarmor.github.io/stroboclip-old-time-banjo/"
 #let post = "https://www.petersontuners.com/sweeteners/shared/"
-#let quest = "https://atlas.banjoquest.com/"
+#let banjonomicon = "https://banjonomicon.com/about"
 #let ccby = "https://creativecommons.org/licenses/by/4.0/"
 #let home = "https://www.petersontuners.com/"
 #set text(size: 10.5pt)
@@ -342,7 +342,7 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
 
 #block(height: col-h, columns(2, gutter: 24pt)[
     #sec("1", "What this is")
-    OTB is a set of 20 old-time banjo tunings loaded onto a Peterson StroboClip HDC as one configuration. The tunings are the common ones nearly every old-time player uses; their names and order follow Tom Collins’s Banjonomicon tool at Banjo Quest (#link(quest)[atlas.banjoquest.com]), so his students see one list. Select a tuning and the tuner takes that tuning’s color and keeps it. Pluck a string and the tuner shows the note in that tuning nearest to what it hears; turn the peg until the strobe stands still. The tuning table on page 1 lists all 20.
+    OTB is a set of 20 old-time banjo tunings loaded onto a Peterson StroboClip HDC as one configuration. The tunings are the common ones nearly every old-time player uses; their names and order follow Tom Collins’s Banjonomicon (#link(banjonomicon)[banjonomicon.com/about]), so his students see one list. Select a tuning and the tuner takes that tuning’s color and keeps it. Pluck a string and the tuner shows the note in that tuning nearest to what it hears; turn the peg until the strobe stands still. The tuning table on page 1 lists all 20.
 
     #sec("2", "Which tuners")
     Made on the StroboClip HDC. The HDC-B and HDC-V are the same tuner with different clips, so OTB loads on them too. The 20 tunings are also shared one by one for other Peterson tuners that work with Peterson Connect, such as the StroboPLUS HDC and the StroboClip HD. The OTB page linked below lists what carries over to each model.
@@ -389,7 +389,7 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
       #linebreak()
       Tuner presets: #link(post)[#text(weight: 700)[petersontuners.com/sweeteners/shared]] (User Trading Post, Shared User Configurations, OTB).
       #v(3pt)
-      #text(size: 8pt, fill: muted)[Card and text © 2026 Michael Marmor, #link(ccby)[CC BY 4.0]. Tunings, names and order from Tom Collins’s #link(quest)[Banjo Quest].#linebreak()Version #version, October 30, 2026.]
+      #text(size: 8pt, fill: muted)[Card and text © 2026 Michael Marmor, #link(ccby)[CC BY 4.0]. Tunings, names and order from Tom Collins’s #link(banjonomicon)[Banjonomicon].#linebreak()Version #version, November 8, 2026.]
     ],
   )
 ]
