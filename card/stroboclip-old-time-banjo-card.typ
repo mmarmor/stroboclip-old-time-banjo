@@ -11,7 +11,7 @@
 
 #let body-font = ("Atkinson Hyperlegible Next", "DejaVu Sans")
 #let a4 = sys.inputs.at("paper", default: "us-letter") == "a4"
-#let version = "6"
+#let version = "7"
 
 #set document(title: "StroboClip HDC Tuning Card", author: ("Michael Marmor",))
 #set page(
@@ -214,11 +214,11 @@
     dir: ttb,
     spacing: 6pt,
     align(right)[
-      #text(size: 6.8pt, weight: 700, fill: muted, tracking: 0.1em)[OLD TIME BANJO CONFIGURATION]
+      #text(size: 6.8pt, weight: 700, fill: muted, tracking: 0.1em)[OLD TIME BANJO SET]
       #h(4pt)
       #chip("OTB", "ink", size: 12pt)
     ],
-    align(right, text(size: 7.5pt, fill: muted)[A = 440 Hz · sweetened thirds · v#version · November 8, 2026]),
+    align(right, text(size: 7.5pt, fill: muted)[A = 440 Hz · sweetened thirds · v#version · November 10, 2026]),
     align(right, text(size: 7.5pt, fill: muted)[Created by Michael Marmor · marmor\@duck.com]),
   ),
 )
@@ -232,7 +232,7 @@
   *Strings:* 5th (drone) → 1st.
   #h(7pt) *Shading:* semitones moved from G Standard, #sw(up-fill)#h(2pt)up or #sw(dn-fill)#h(2pt)down.
   #h(7pt) #text(fill: sweet-ink, weight: 700)[−6.8¢] sweetened (cents).
-  #h(7pt) *Chip:* tuner color #text(fill: accent, style: "italic")[(why)].
+  #h(7pt) *Chip:* suggested tuner color #text(fill: accent, style: "italic")[(why)].
 ]
 #v(5pt)
 
@@ -296,8 +296,8 @@
     column-gutter: 11pt,
     label("On the" + "\n" + "tuner"),
     [*Change tuning:* click *Menu* until the code flashes, step with *+* / *−*, then *Menu* again (or wait).],
-    [*Back to EQU* (plain chromatic): while the code flashes, press *+* and *−* together.],
-    [*Order:* EQU, then rows 1–20 (Auto-Order off). Factory presets: Settings › Configuration › dEF.],
+    [*Back to EQU* (plain chromatic), if it is in your list: while the code flashes, press *+* and *−* together.],
+    [*Order:* a new tuning goes to the bottom of your list (Auto-Order off). Factory presets: Settings › Configuration › dEF.],
     [*Menu ×2* color · *×3* drop/capo · *×4* Concert A, each saved with the active tuning.],
   )
 ]
@@ -342,24 +342,26 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
 
 #block(height: col-h, columns(2, gutter: 24pt)[
     #sec("1", "What this is")
-    OTB is a set of 20 old-time banjo tunings loaded onto a Peterson StroboClip HDC as one configuration. The tunings are the common ones nearly every old-time player uses; their names and order follow Tom Collins’s Banjonomicon (#link(banjonomicon)[banjonomicon.com/about]), so his students see one list. Select a tuning and the tuner takes that tuning’s color and keeps it. Pluck a string and the tuner shows the note in that tuning nearest to what it hears; turn the peg until the strobe stands still. The tuning table on page 1 lists all 20.
+    OTB, for Old Time Banjo, is a set of 20 old-time banjo tunings for the Peterson StroboClip HDC, each shared as a tuner preset. The tunings are the common ones nearly every old-time player uses; their names and order follow Tom Collins’s Banjonomicon (#link(banjonomicon)[banjonomicon.com/about]), so his students see one list. Select a tuning and the tuner shows its three-letter code. Pluck a string and the tuner shows the note in that tuning nearest to what it hears; turn the peg until the strobe stands still.
 
     #sec("2", "Which tuners")
-    Made on the StroboClip HDC. The HDC-B and HDC-V are the same tuner with different clips, so OTB loads on them too. The 20 tunings are also shared one by one for other Peterson tuners that work with Peterson Connect, such as the StroboPLUS HDC and the StroboClip HD. The OTB page linked below lists what carries over to each model.
+    Made on the StroboClip HDC; the HDC-B and HDC-V are the same tuner with different clips. Other Peterson Connect tuners, such as the StroboPLUS HDC and StroboClip HD, can add the same tunings; the OTB page (below) lists what carries over.
 
-    #sec("3", "Get it onto your tuner")
-    You need the tuner, a USB cable, a computer running a supported web browser, and a free account at #link(home)[petersontuners.com]. Plug in the tuner, open the User Trading Post at #box(link(post)[petersontuners.com/sweeteners/shared]), find OTB under Shared User Configurations, and click Add to My Tuner. Installing may replace your existing custom configuration. The factory presets are never lost: on the tuner, Settings, then Configuration, then dEF brings them back. A step-by-step guide with screenshots is at the link below.
+    #sec("3", "Get the tunings onto your tuner")
+    Plug the tuner into a computer running Chrome or Edge, sign in to a free #link(home)[petersontuners.com] account, and open the #link(post)[User Trading Post] (address below). Under Misc. Instruments, find a code from page 1 marked “by Michael Marmor”, click the + beside it, choose your tuner, and click Update. Repeat for each tuning you play, in row order; a new one goes last in your list.
+
+    On a tuner with only the factory presets, your first tuning starts your own list in their place. They are never lost: Settings, then Configuration, then dEF brings them back. Tunings arrive without colors; set them on the Configure page, then click Update Connected Device.
 
     #sec("4", "Pick a tuning and tune")
     Click Menu until the three-letter code flashes, step with + or − to the code you want, and let it settle. Pluck one string at a time. The tuner shows the note it hears; turn the peg until the letter matches the table and the strobe stands still. Come up to pitch from below.
 
     #sec("5", "Reading the tuning table")
-    Each row is one tuning: the code and color the tuner shows, the name, the tuning as players write it with the 5th string first, and the key. The five columns are the strings, from the 5th, the short drone, to the 1st, and each cell is the note that string should read, with its octave as a small digit after the letter; G2 is the lowest note on the card. Shading and the signed whole numbers below a note show how many semitones that string moved from G Standard, so G Standard has no shading. Green −6.8¢ marks a sweetened note.
+    Each row is one tuning: the code the tuner shows, on a chip in a suggested color, the name, the tuning as players write it with the 5th string first, and the key. The five columns are the strings, from the 5th, the short drone, to the 1st, and each cell is the note that string should read, with its octave as a small digit after the letter; G2 is the lowest note on the card. Shading and the signed whole numbers below a note show how many semitones that string moved from G Standard, so G Standard has no shading. Green −6.8¢ marks a sweetened note.
 
     #sec("6", "Sweetened, or plain EQU")
     A cent is one hundredth of a semitone. The notes marked −6.8¢ sit 6.8 cents flat, a shade rather than a step: Peterson’s half-tempered value for a major third, which lets the open strings ring smoother together. G Minor’s B♭ is 7.8 cents sharp for the same reason. Fretted notes on a sweetened string move with it. Select one of the eleven tunings with an offset and the tuner shows SWEETENER in small letters above the code; the nine with none show nothing there.
 
-    If you would rather not sweeten, or you are playing with a piano or accordion, use EQU, the plain chromatic preset: equal temperament, all twelve notes, no sweetening, any instrument. Press + and − together while a code flashes to reach it.
+    If you would rather not sweeten, or you are playing with a piano or accordion, use EQU, the plain chromatic preset: equal temperament, all twelve notes, no sweetening, any instrument. If EQU is in your list, press + and − together while a code flashes to reach it.
 
     #sec("7", "Four things that catch people out")
     #set list(indent: 0pt, body-indent: 0.55em, spacing: 0.7em, marker: text(fill: accent, weight: 700)[•])
@@ -387,9 +389,9 @@ G Minor’s B♭ is 7.8 cents sharp. Just tune until the strobe stops.
       #set text(size: 9.5pt)
       #link(site)[#text(weight: 700)[mmarmor.github.io/stroboclip-old-time-banjo]]: this card, kept current, in US Letter and A4; the step-by-step loading guide; notes on the tunings and the tuner.
       #linebreak()
-      Tuner presets: #link(post)[#text(weight: 700)[petersontuners.com/sweeteners/shared]] (User Trading Post, Shared User Configurations, OTB).
+      Tuner presets: #link(post)[#text(weight: 700)[petersontuners.com/sweeteners/shared]] (User Trading Post, Misc. Instruments, by Michael Marmor).
       #v(3pt)
-      #text(size: 8pt, fill: muted)[Card and text © 2026 Michael Marmor, #link(ccby)[CC BY 4.0]. Tunings, names and order from Tom Collins’s #link(banjonomicon)[Banjonomicon].#linebreak()Version #version, November 8, 2026.]
+      #text(size: 8pt, fill: muted)[Card and text © 2026 Michael Marmor, #link(ccby)[CC BY 4.0]. Tunings, names and order from Tom Collins’s #link(banjonomicon)[Banjonomicon].#linebreak()Version #version, November 10, 2026.]
     ],
   )
 ]
