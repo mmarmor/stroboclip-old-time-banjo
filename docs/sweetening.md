@@ -12,10 +12,10 @@ On the tuner, selecting one of the eleven shows the word SWEETENER above the cod
 
 - Peterson calls its instrument-specific presets Sweeteners "because they make an instrument sound 'sweeter' by slightly adjusting each note to compensate for common tuning problems specific to an instrument type" (StroboClip HDC Quick Start Manual v1.3).
 - Peterson's factory banjo preset, BJO, is described as countering the typical sharp B string (StroboClip HD manual). In G Standard the B string is the chord's major third.
-- Peterson's StroboFlip manual (2009) prints two options for the thirds of a Dobro's open chord: pure, 13.7 cents flat, and half-tempered, 6.8 cents flat, with every other note at 0. OTB uses the half-tempered figure.
 - EQU, the default preset, "does not apply any adjustments" and turns the tuner into a plain chromatic tuner (StroboClip HDC Quick Start Manual v1.3).
+- Peterson does not publish the numbers behind its banjo preset. It does publish them for the Dobro, a resonator guitar that is normally tuned to an open G chord, the same chord as a banjo in G Standard. For the thirds of that chord, Peterson's StroboFlip manual (2009) prints two options: pure, 13.7 cents flat, and half-tempered, 6.8 cents flat, with every other note at 0.
 
-Peterson does not publish BJO's exact offsets. OTB's 6.8 comes from the StroboFlip manual, not from BJO.
+OTB borrows the half-tempered figure, 6.8 cents, from that Dobro table. It does not come from BJO.
 
 ## What the physics says
 
