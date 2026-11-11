@@ -1,6 +1,6 @@
 # Sweetened thirds, in plain words
 
-This page explains the green numbers on the card: what OTB changes, why, what it costs, and when to switch to plain EQU instead. Three kinds of evidence are kept apart: what Peterson says, what the physics says, and what players report.
+This page explains the green numbers on the card: what OTB changes, why, what you give up for it, and when to switch to plain EQU instead. Three kinds of evidence are kept apart: what Peterson says, what the physics says, and what players report.
 
 ## What OTB does
 
@@ -19,7 +19,7 @@ Peterson does not publish BJO's exact offsets. OTB's 6.8 comes from the StroboFl
 
 ## What the physics says
 
-**Two meanings of "in tune".** Two notes sound smoothest together when their frequencies form a simple ratio: 2:1 for an octave, 3:2 for a fifth, 5:4 for a major third. Those are pure intervals. Frets cannot give pure intervals in every key, so fretted instruments use equal temperament: twelve identical semitones per octave, and the frets are placed for that. The cost, in cents:
+**Two meanings of "in tune".** Two notes sound smoothest together when their frequencies form a simple ratio: 2:1 for an octave, 3:2 for a fifth, 5:4 for a major third. Those are pure intervals. Frets cannot give pure intervals in every key, so fretted instruments use equal temperament: twelve identical semitones per octave, and the frets are placed for that. Here is how far that leaves each interval from pure, in cents:
 
 | Interval | Pure ratio | Equal temperament vs. pure |
 |---|---|---|
@@ -34,7 +34,7 @@ Fourths and fifths come out almost exactly right. Thirds and sixths are off by 1
 
 **Beats.** A plucked string sounds its main note plus overtones at two, three, four and five times that frequency. When two strings ring together, some of their overtones land almost on top of each other, and the sound pulses at the difference between them. In G Standard at 0 cents, the G and B strings together pulse about 8 times a second and the B and D strings about 13 times a second; the G and D strings, a fifth, pulse less than once a second. With the B 6.8 cents flat the two fast pulses drop to about 4 and 7 a second; at 13.7 cents flat, the G-B pulse stops. A banjo makes this easy to hear because its strings drive the head with spectra "all quite rich in high harmonics" (David Politzer, *Banjo Drum Physics: theoretical preliminaries*, Caltech, 2017).
 
-**The cost.** A sweetener moves the whole string, not just the open note. Every fretted note on a string tuned 6.8 cents flat is also 6.8 cents flat. Fret the sweetened string to match an open string and the unison, normally dead still, wobbles by the amount of the offset. Half-tempered rather than pure is a compromise: open chords ring smoother, and fretted notes on that string stay close enough to equal temperament to live with. Fretting also stretches a string slightly sharp, which no sweetener can fix; that is what compensated bridges are for (Varieschi and Gower, "Intonation and Compensation of Fretted String Instruments", *American Journal of Physics*, 2010).
+**The trade-off.** A sweetener moves the whole string, not just the open note. Every fretted note on a string tuned 6.8 cents flat is also 6.8 cents flat. Fret the sweetened string to match an open string and the unison, normally dead still, wobbles by the amount of the offset. Half-tempered rather than pure is a compromise: open chords ring smoother, and fretted notes on that string stay close enough to equal temperament to live with. Fretting also stretches a string slightly sharp, which no sweetener can fix; that is what compensated bridges are for (Varieschi and Gower, "Intonation and Compensation of Fretted String Instruments", *American Journal of Physics*, 2010).
 
 **Capo.** Seven OTB tunings are exactly another tuning a whole step up. Because the offset is on the string, a capo at the 2nd fret in the lower tuning gives the higher tuning with the same offsets. Raise the 5th string two semitones by hand or with a spike, and the tuner's higher preset checks the result.
 
