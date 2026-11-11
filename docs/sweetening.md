@@ -1,6 +1,6 @@
 # Sweetened thirds, in plain words
 
-Preview, October 30, 2026. This page explains the green numbers on the card: what OTB changes, why, what it costs, and when to switch to plain EQU instead. Three kinds of evidence are kept apart: what Peterson says, what the physics says, and what players report.
+This page explains the green numbers on the card: what OTB changes, why, what it costs, and when to switch to plain EQU instead. Three kinds of evidence are kept apart: what Peterson says, what the physics says, and what players report.
 
 ## What OTB does
 
@@ -50,7 +50,7 @@ In Banjo Hangout threads from 2008 and 2014, players describe flattening the B s
 - A tune that lives on fretted notes high up the sweetened string.
 - Any time you are not sure. EQU is Peterson's default and the safe choice.
 
-On the tuner: click Menu until the code flashes, then press + and − together. Click Menu until the code flashes again and step with + or − to return to a tuning.
+On the tuner, with EQU in your list: click Menu until the code flashes, then press + and − together. Click Menu until the code flashes again and step with + or − to return to a tuning. If EQU is not in your list, the [guide](guide.md) shows where to add it.
 
 ## Hear it yourself, in two minutes
 
